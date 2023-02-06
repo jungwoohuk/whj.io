@@ -1,0 +1,381 @@
+/* 색상 꾸미기 용 */
+/* 색상 #211521/ #fff/#212529 */
+li{list-style: none;}
+a{text-decoration: none; color: #212529;}
+/* 재사용 디자인 */
+.ck-box{
+    background-color: #fff;
+}
+.ck-box-txt{
+    color: #211521;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+} 
+
+.ck-boxf{
+    background-color: #211521;
+}
+.ck-box-txtf{
+    color: #fff;
+    text-shadow: -1px 0 #211521, 0 1px #211521, 1px 0 #211521, 0 -1px #211521;
+}   
+
+.slide-box-circle{
+    background-color: #211521;
+    border-radius: 50%;
+}
+
+/* 메뉴바 버튼 스타일 */
+.menu-bt{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.menu-bt img{
+    animation: rotate_image 6s linear infinite;transform-origin: 50% 50%;
+}
+
+.menu-cbt{
+    background-color: #fff;
+    visibility: hidden;
+    border-radius: 10px;
+    transition: all 1s;
+    
+}
+
+/* 메뉴창 스타일 */
+.gnb{
+    background-color: #212529;
+    visibility: hidden;
+    transition: all 2s;
+    
+    
+}
+.gnb li {
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.gnb a:hover{color: #fff;}
+
+
+/* home 최상 꼭대기  */
+.home{
+    /* background-color: brown; */
+    background: url(../img/home-bg.gif) no-repeat;
+    background-size: 100vw 100%;
+    color: #fff;
+    text-align: right;
+}
+
+.home-txt-box h1{
+    text-shadow: -5px 0 #fff, 0 5px #fff, 5px 0 #fff, 0 -5px #fff;
+    color: #211521;
+}
+.p-txt{
+    text-shadow: -1px 0 #211521, 0 1px #211521, 1px 0 #211521, 0 -1px #211521;
+    font-weight: bold;
+}
+.p-name{
+    text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
+    color: #211521;
+}
+
+
+/* about */
+.about{
+    background-color: #211521;
+    color: #fff;
+}
+.about span{
+    color: #212529;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+.aboutme{
+    border: 1px solid #fff;
+}
+.aboutme a{
+    color: #fff;
+}
+
+
+
+/* skills */
+.skills{
+    background-color: #fff;
+}
+.bt{
+    border:5px solid #211521;
+    background-color: lightgreen;
+}
+.bt-ok{
+    background-color: #fff;
+    transition: all 2s;
+    animation: fadeUp  5s 1s infinite;
+    animation-direction:reverse;
+}
+.bt-so{
+    background-color: orange;
+}
+.bt-soso{
+    background-color: #fff;
+    transition: all 2s;
+    animation: bt-soso 5s 1s infinite;
+}
+
+.bt-bad{
+    background-color: #fff; 
+}
+.bt-no{
+    background-color: red;
+    transform: translateY(6vh);
+    animation: Glitter 3s 1s infinite;
+}
+
+/* 스킬란안에 배경 별 */
+
+
+
+/* project */
+.project{
+    background-color: #211521;
+    color: #fff;
+}
+.slide-txt{ /*슬라이드 설명*/
+    background-color: #fff;
+}
+.slide{
+    background-color: #fff;
+}
+.slide-container{
+    transition: all 2s;
+}
+
+.slide-txt-1{
+    background-color: #fff;
+    color: #fff;
+}
+.slide-txt-1 ul{
+    background-color: #211521;
+    border-radius: 5%;
+}
+.slide-txt-1:nth-child(2) ul{
+    background-color: #DD1C4E;
+    color: #fff;
+}
+.slide-txt-1:nth-child(3) ul{
+    background-color: #0d4633;
+    color: #fff;
+}
+/* footer */
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer input{
+    color: #211521;
+}
+.footer textarea{
+    color: #211521;
+}
+
+.ptli-backbg{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.ptli-whitebg{
+
+    background-color: #fff;
+
+   
+    
+}
+.left{
+    background-color: #fff;   
+
+   }
+   .right{
+       background-color: #fff;   
+
+   }
+   .star{
+    border-bottom-color: #fff;
+  }
+  .star::before {
+    border-top-color: #fff;
+  }
+
+  .star1{
+    animation:  star 5s linear infinite;
+  }
+  .star2{
+    animation:  star 4s linear infinite;
+  }
+  .star3{
+    animation:  star 2s linear infinite;
+  }
+  .star4{
+    animation:  star 5s linear infinite;
+  }
+  .star5{
+    animation:  star 4s linear infinite;
+  }
+  .star6{
+    animation:  star 2s linear infinite;
+  }
+  .star7{
+    animation:  star 1s linear infinite;
+  }
+  .star8{
+    animation:  star 5s linear infinite;
+  }
+  .star9{
+    animation:  star 4s linear infinite;
+  }
+  .star10{
+    animation:  star 2s linear infinite;
+  }
+  .star11{
+    animation:  star 5s linear infinite;
+  }
+  .star12{
+    animation:  star 4s linear infinite;
+  }
+  .star13{
+    animation:  star 2s linear infinite;
+  }
+  .star14{
+    animation:  star 1s linear infinite;
+  }
+
+/* 포지션 sticky */
+
+.card-box{
+    transition: all 0.2s;
+
+  }
+
+
+
+
+/* 클래스 탈부착용 */
+.gnbopen{
+    visibility: inherit;
+    width: 40vw;
+}
+.show{
+    visibility: inherit;
+    
+}
+.close{
+    visibility: hidden;
+}
+.txt0-move{
+    animation: txt0-move 3s ;
+    animation-fill-mode: forwards;
+
+}
+.txt1-move{
+    animation: txt1-move 3s ;
+    animation-fill-mode: forwards;
+
+}
+.txt2-move{
+    animation: txt2-move 3s ;
+    animation-fill-mode: forwards;
+}
+.before0-move{
+    animation: before0-move 3s ;
+    animation-fill-mode: forwards;
+}
+
+.before1-move{
+    animation: before1-move 3s ;
+    animation-fill-mode: forwards;
+}
+
+.before2-move{
+    animation: before2-move 3s ;
+    animation-fill-mode: forwards;
+}
+
+
+/* 키프레임 */
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+
+@keyframes fadeUp{
+    0%{ height: 0vh;}
+    100%{ height: 9vh;}
+    
+}
+
+@keyframes bt-soso{
+    0%{ height: 9vh;}
+    100%{ height: 4.5vh;}
+    
+}
+
+@keyframes Glitter {
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+@keyframes star{
+    0%{ opacity: 1;}
+    25%{ opacity: 0;}
+    50%{opacity: 1;}
+    75%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+
+
+@keyframes txt0-move{
+    0%{transform: translateZ(0px) translateX(-70vw);}
+    50%{transform: translateZ(-200px) translateX(-70vw);}
+    70%{transform: translateZ(-200px) translateX(-15vw);}
+    100%{transform: translateZ(0px) translateX(0vw);}
+}
+
+
+
+ @keyframes txt1-move{
+    0%{transform: translateZ(0px) translateX(-15vw);}
+    30%{transform: translateZ(-200px) translateX(-15vw);}
+    70%{transform: translateZ(-200px) translateX(-40vw);}
+    100%{transform: translateZ(0px) translateX(-30vw);}
+    
+}
+
+@keyframes txt2-move{
+    0%{transform: translateZ(0px) translateX(-40vw);}
+    50%{transform: translateZ(-200px) translateX(-40vw);}
+    70%{transform: translateZ(-200px) translateX(-70vw);}
+    100%{transform: translateZ(0px) translateX(-60vw);}
+}
+@keyframes before0-move{
+    0%{transform: translateZ(0px) translateX(0vw);}
+    50%{transform: translateZ(-200px) translateX(-15vw);}
+    70%{transform: translateZ(-200px) translateX(-75vw);}
+    100%{transform: translateZ(0px) translateX(-60vw);}
+}
+
+@keyframes before1-move{
+    0%{transform: translateZ(0px) translateX(-70vw);}
+    50%{transform: translateZ(-200px) translateX(-70vw);}
+    70%{transform: translateZ(-200px) translateX(-40vw);}
+    100%{transform: translateZ(0px) translateX(-30vw);}
+}
+
+@keyframes before2-move{
+    0%{transform: translateZ(0px) translateX(-40vw);}
+    50%{transform: translateZ(-200px) translateX(-40vw);}
+    70%{transform: translateZ(-200px) translateX(-15vw);}
+    100%{transform: translateZ(0px) translateX(0vw);}
+
+}
+
+/* https://nowonbun.tistory.com/369 */
+
