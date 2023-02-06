@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <!-- 12월21일부터  포폴 컬랙션 제작 시작 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 부트스트랩 외부링크 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./css/main.css" rel="stylesheet" />
+    <!--메인 css-->
+    <link href="./css/style.css" rel="stylesheet" />
+    <!--스타일 css-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <!-- Style The Contact Form How Ever You Prefer -->
+
+    <title>우혁 : 포토폴리오</title>
+    <!-- 메뉴바 버튼 i svg -->
+
+    <!-- 제이쿼리 외부링크 -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body style="overflow-x: hidden">
+    <div id="wrap">
+      <!--가장 큰 박스 wrap-->
+
+      <!-- menu-bt -->
+      <div class="menu-bt">
+        <img src="./img/gnb-bt-round.png" alt="버튼라운드" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="currentColor"
+          class="bi bi-arrow-down-left-square-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm8.096-10.803L6 9.293V6.525a.5.5 0 0 0-1 0V10.5a.5.5 0 0 0 .5.5h3.975a.5.5 0 0 0 0-1H6.707l4.096-4.096a.5.5 0 1 0-.707-.707z"
+          />
+        </svg>
+      </div>
+      <div class="menu-cbt">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="40"
+          fill="currentColor"
+          class="bi bi-x-square-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"
+          />
+        </svg>
+      </div>
+      <!-- menu-bt -->
+
+      <!-- gnb -->
+      <div class="gnb">
+        <ul>
+          <li>
+            <a href="#" onclick="scrollTopAnimated()" class="move">HOME</a>
+          </li>
+          <li>
+            <a href="#" onclick="scrollTopAnimated1()" class="move">ABOUT</a>
+          </li>
+          <li>
+            <a href="#" onclick="scrollTopAnimated2()" class="move">SKILLS</a>
+          </li>
+          <li>
+            <a href="#" onclick="scrollTopAnimated3()" class="move">PROJECT</a>
+          </li>
+          <li>
+            <a href="#" onclick="scrollTopAnimated4()" class="move">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <!-- gnb -->
+      <div class="card-bg">
+        <!-- home 최상 꼭대기 -->
+        <div class="home card-box" id="target0">
+          <div class="home-txt-box">
+            <p class="p-name">JEONG WOO HYEOK</p>
+            <p class="p-txt">
+              안녕하세요<br />
+              신입 퍼블리셔 정우혁입니다<br />
+              저의 포토폴리오를 봐주셔서 감사합니다!<br />
+              궁금한게 있으시면 언제든지 연락주시기 바랍니다<br />
+              감사합니다 :D
+            </p>
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+        <!-- home 최상 꼭대기 -->
+
+        <!--about-->
+        <div class="menu-box about card-box" id="target1">
+          <div class="ck-box"></div>
+          <p class="ck-box-txt">ABOUT ME</p>
+          <div class="about-txt-box">
+            <p class="about-title">
+              Create End Challenge<br />
+              만들고 도전하는,<span>정우혁</span>입니다
+            </p>
+            <p class="about-txt">
+              안녕하세요. '명장들도 처음엔 아마추어였다'라는 마음가짐으로 만들고
+              싶은게 있어 퍼블리싱으로 공부를 시작하게 되었습니다.<br />
+              지금은 모르는것들을 배우고 만들고 다시 부수며 목표에 한 발
+              다가서는 퍼블리셔 정우혁입니다.
+            </p>
+            <button
+              class="aboutme"
+              onclick="location.href = './sub(이력서)/정우혁이력서.html'"
+            >
+              이력서보기
+            </button>
+          </div>
+        </div>
+        <!--about-->
+
+        <!-- skills -->
+        <div class="menu-box skills card-box" id="target2">
+          <div class="ck-boxf"></div>
+          <p class="ck-box-txtf">SKILLS</p>
+          <div class="skills-box">
+            <div class="html">
+              <ul>
+                <li><img src="./img/html.png" alt="" /></li>
+              </ul>
+              <div class="bt">
+                <!--배터리충전-->
+                <div class="bt-ok"></div>
+              </div>
+              <!--배터리충전-->
+            </div>
+            <div class="css">
+              <ul>
+                <li><img src="./img/css.png" alt="" /></li>
+              </ul>
+              <div class="bt">
+                <!--배터리충전-->
+                <div class="bt-ok"></div>
+              </div>
+              <!--배터리충전-->
+            </div>
+            <div class="js">
+              <ul>
+                <li><img src="./img/js.png" alt="" /></li>
+              </ul>
+              <div class="bt bt-so">
+                <!--배터리충전-->
+                <div class="bt-soso"></div>
+              </div>
+              <!--배터리충전-->
+            </div>
+            <div class="vue">
+              <ul>
+                <li><img src="./img/vue.png" alt="" /></li>
+              </ul>
+              <div class="bt bt-bad">
+                <div class="bt-no"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- skills -->
+
+        <!-- project -->
+        <div class="menu-box project card-box" id="target3">
+          <div class="ck-box"></div>
+          <p class="ck-box-txt">PROJECT</p>
+          <div class="slide-txt">
+            <!--슬라이드설명-->
+            <div class="slide-txt-box">
+              <div class="slide-tb">
+                <div class="slide-txt-1">
+                  <ul>
+                    <li>
+                      포트폴리오 컬렉션 자기소개,스킬,프로젝트,커넥등<br />
+                      나를 소개 할 수 있는 컬렉션집 입니다.
+                    </li>
+                    <li>프로젝트개요: 개인프로젝트<br />(순수 하드 코딩)</li>
+        
+                    <li>사용툴 : 비주얼스튜디오,일러스트</li>
+                  </ul>
+                </div>
+                <div class="slide-txt-1">
+                  <ul>
+                    <li>
+                      우왁굳 유튜버에 이세계 아이돌<br />
+                      메타버스에서 새로운 아이돌을 만나보세요<br />
+                      
+                    </li>
+                    <li>프로젝트개요: 개인프로젝트<br />(순수 하드 코딩)</li>
+                    
+                    <li>사용툴 : vue.js</li>
+                  </ul>
+                </div>
+                <div class="slide-txt-1">
+                  <ul>
+                    <li>언더아머 신발 전용 사이트<br /></li>
+                    <li>
+                      프로젝트개요: 개인프로젝트<br />(순수 하드
+                      코딩,반응협웹)
+                    </li>
+                    
+                    <li>사용툴 : 비주얼스튜디오,포토샵</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <!--이미지슬라이드-->
+            <div class="slide-container">
+              <div class="slide-box">
+                <a href="./index.html" target="_blank"
+                  ><img src="./img/project/project.PNG" alt=""
+                /></a>
+              </div>
+              <div class="slide-box">
+                <a href="https://jungwoohuk.github.io/wlux.io/">
+                <img src="./img/메인로고.png" alt="" />
+                </a>
+              </div>
+              <div class="slide-box">
+                <a href="./sub(언더아머)/index.html" target="_blank"
+                  ><img src="./sub(언더아머)/img/banner/banner-1.PNG" alt=""
+                /></a>
+              </div>
+            </div>
+            <button class="before"><img src="./img/left.png" alt="" /></button>
+            <div class="slide-box-circle"></div>
+            <button class="next"><img src="./img/right.png" alt="" /></button>
+          </div>
+        </div>
+        <!-- project -->
+
+        <!-- footer -->
+        <div class="menu-box footer card-box" id="target4">
+          <div class="ck-box"></div>
+          <p class="ck-box-txtf">CONTACT</p>
+
+          <!-- START HERE -->
+
+          <form
+            class="gform pure-form pure-form-stacked"
+            method="POST"
+            target="iframe1"
+            data-email="holllee790906@gmail.com"
+            action="https://script.google.com/macros/s/AKfycbzWEZ5iyRNLzurtaOKg8ohFYXjye-_DZ-CA2ClvlPUoVDU0bZ6J8geNN6qUCIATpbqw/exec"
+          >
+            <!-- change the form action to your script url -->
+
+            <div class="form-elements">
+              <fieldset class="pure-group">
+                <label for="name">Name: </label>
+                <input id="name" name="name" placeholder="Name" />
+              </fieldset>
+
+              <fieldset class="pure-group">
+                <label for="message">Message: </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="10"
+                  placeholder="메세지를 적어주세요 저한테 이메일이 전달됩니다!!"
+                ></textarea>
+              </fieldset>
+
+              <fieldset class="pure-group">
+                <label for="email"><em>Your</em> Email Address:</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  value=""
+                  required
+                  placeholder="abc@email.com"
+                />
+              </fieldset>
+
+              <button class="button-success pure-button button-xlarge">
+                <i class="fa fa-paper-plane"></i>&nbsp;전송
+              </button>
+            </div>
+            <br />
+            <div>
+              <p>Phone : 010 2918 9228</p>
+              <p>E-mail : dandan_love@naver.com</p>
+              <div>
+                <a href="https://github.com/jungwoohuk/whj"
+                  ><img src="./img/git.png" width="50" alt=""
+                /></a>
+              </div>
+            </div>
+          </form>
+          <!-- <iframe id="iframe1" name="iframe1" style="display:none"></iframe> -->
+          <div class="ptli">
+            <div class="ptli-box"><img src="./img/ps.png" alt="" /></div>
+            <div class="ptli-box"><img src="./img/ai.png" alt="" /></div>
+            <div class="star star1"></div>
+            <div class="star star2"></div>
+            <div class="star star3"></div>
+            <div class="star star4"></div>
+            <div class="star star5"></div>
+            <div class="star star6"></div>
+            <div class="star star7"></div>
+            <div class="star star8"></div>
+            <div class="star star9"></div>
+            <div class="star star10"></div>
+            <div class="star star11"></div>
+            <div class="star star12"></div>
+            <div class="star star13"></div>
+            <div class="star star14"></div>
+          </div>
+          <div class="ptli-backbg">
+            <div class="ptli-whitebg">
+              <div class="ptli-whitebg-img">
+                <img src="./img/pt1.png" alt="" />
+              </div>
+              <div class="ptli-whitebg-img">
+                <img src="./img/pt2.png" alt="" />
+              </div>
+              <div class="ptli-whitebg-img">
+                <img src="./img/pt3.png" alt="" />
+              </div>
+              <div class="ptli-whitebg-img">
+                <img src="./img/pt4.png" alt="" />
+              </div>
+              <div class="ptli-whitebg-img">
+                <img src="./img/pt5.png" alt="" />
+              </div>
+              <div class="ptli-whitebg-img">
+                <img src="./img/pt6.png" alt="" />
+              </div>
+            </div>
+            <button class="left"><img src="./img/left.png" alt="" /></button>
+            <button class="ptli-close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="currentColor"
+                class="bi bi-x-square-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"
+                />
+              </svg>
+            </button>
+            <button class="right"><img src="./img/right.png" alt="" /></button>
+          </div>
+
+          <!-- END -->
+        </div>
+        <!-- footer -->
+      </div>
+    </div>
+
+    <!-- 자바스크립트 외부링크 -->
+    <script src="./js/main.js"></script>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="form-submission-handler.js"></script>
+
+  </body>
+</html>
