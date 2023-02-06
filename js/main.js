@@ -190,6 +190,61 @@ $('.next').on('click', function(){
 document.getElementsByClassName('button-success')[0].addEventListener('click',function(){
      alert('전송완료');
  });
+ $('.ptli-box').click(function(){
+    $('.ptli-backbg').addClass('show');
+});
+$('.ptli-close').click(function(){
+    $('.ptli-backbg').removeClass('show');
+});
+
+var 현재사진=1;
+
+$('.left').click(function(){ 
+    현재사진+= 1
+    console.log(현재사진);
+    if(현재사진 == 1){
+        $('.ptli-whitebg-img').css('transform','translateY(0vh)');
+    }
+    else if(현재사진 == 2){
+        $('.ptli-whitebg-img').css('transform','translateY(-80vh)');
+    }else if(현재사진 ==3){
+        $('.ptli-whitebg-img').css('transform','translateY(-160vh)');
+    }else if(현재사진 ==4){
+        $('.ptli-whitebg-img').css('transform','translateY(-240vh)');
+    }else if(현재사진 ==5){
+        $('.ptli-whitebg-img').css('transform','translateY(-320vh)');
+    }else if(현재사진 ==6){
+        $('.ptli-whitebg-img').css('transform','translateY(-400vh)');
+    }else{
+        $('.ptli-whitebg-img').css('transform','translateY(0vh)');
+        return 현재사진 = 1;
+    }
+    
+
+})
+$('.right').click(function(){ 
+    현재사진+= -1
+    console.log(현재사진);
+    if(현재사진 == 1){
+        $('.ptli-whitebg-img').css('transform','translateY(0vh)');
+    }
+    else if(현재사진 == 2){
+        $('.ptli-whitebg-img').css('transform','translateY(-80vh)');
+    }else if(현재사진 ==3){
+        $('.ptli-whitebg-img').css('transform','translateY(-160vh)');
+    }else if(현재사진 ==4){
+        $('.ptli-whitebg-img').css('transform','translateY(-240vh)');
+    }else if(현재사진 ==5){
+        $('.ptli-whitebg-img').css('transform','translateY(-320vh)');
+    }else if(현재사진 ==6){
+        $('.ptli-whitebg-img').css('transform','translateY(-400vh)');
+    }else{
+        $('.ptli-whitebg-img').css('transform','translateY(-400vh)');
+        return 현재사진 = 6;
+    }
+    
+
+})
 
  
     
